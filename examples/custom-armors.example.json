@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "description": "Example data only. This repository does not include runtime mod code.",
+  "materials": {
+    "example:ruby": {
+      "displayName": "Ruby",
+      "mergeKey": "example:ruby",
+      "iconTexture": "textures/ui/detail_armor/ruby_armor",
+      "uvSize": [16, 16]
+    }
+  },
+  "armors": {
+    "example:ruby_helmet": {
+      "itemName": "example:ruby_helmet",
+      "defense": 2.5,
+      "slot": "helmet",
+      "materialKey": "example:ruby",
+      "iconTexture": "textures/ui/detail_armor/ruby_armor",
+      "uvSize": [16, 16]
+    },
+    "example:ruby_chestplate": {
+      "itemName": "example:ruby_chestplate",
+      "defense": 7.5,
+      "slot": "chestplate",
+      "materialKey": "example:ruby",
+      "iconTexture": "textures/ui/detail_armor/ruby_armor",
+      "uvSize": [16, 16]
+    },
+    "example:ruby_leggings": {
+      "itemName": "example:ruby_leggings",
+      "defense": 5.5,
+      "slot": "leggings",
+      "materialKey": "example:ruby",
+      "iconTexture": "textures/ui/detail_armor/ruby_armor",
+      "uvSize": [16, 16]
+    },
+    "example:ruby_boots": {
+      "itemName": "example:ruby_boots",
+      "defense": 2.5,
+      "slot": "boots",
+      "materialKey": "example:ruby",
+      "iconTexture": "textures/ui/detail_armor/ruby_armor",
+      "uvSize": [16, 16]
+    }
+  }
+}
